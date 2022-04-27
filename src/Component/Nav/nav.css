@@ -1,0 +1,9 @@
+.search_result {
+  margin: 30px;
+  height: max-content;
+  display: grid;
+  flex-direction: row;
+  grid-gap: 50px;
+  grid-template-rows: min-content;
+  grid-template: auto/repeat(auto-fit, minmax(300px, 1fr));
+}

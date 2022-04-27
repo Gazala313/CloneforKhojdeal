@@ -1,0 +1,14 @@
+.MainChar {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  /* font-size: 25px; */
+}
+.searchresult {
+  margin: 30px;
+  height: max-content;
+  display: grid;
+  grid-gap: 25px;
+  grid-template: auto/repeat(auto-fit, minmax(300px, 1fr));
+}
